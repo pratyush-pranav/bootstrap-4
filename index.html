@@ -43,6 +43,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                    <button type="button" class="btn btn-sm btn-block btn-warning"><a href="#reserveform">Reserve Table</a></button>
+                </div>
             </div>
         </div>
     </header>
@@ -56,9 +59,9 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthapizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza
                         <span class="badge badge-danger">HOT</span>
-                        <span class="badge badge-pill badge-secondary">$4.99</span>
+                        <span class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>    
                     </div>
                 </div>
@@ -72,9 +75,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <h2 class="mt=0">Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>        
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
 
@@ -92,6 +100,58 @@
                     </div>
                 </div>
                 
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 col-sm-8 offset-sm-2">
+                <a name="reserveform"></a>
+                <div class="card">
+                    <h3 style="background-color: goldenrod;" class="card-header text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label class="col-md-2 col-form-label">Number of Guests</label>
+                                <div class="col-md-10">
+                                    <label class="radio-inline">
+                                        <input type="radio"> 1 &nbsp;
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio"> 2 &nbsp;
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio"> 3 &nbsp;
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio"> 4 &nbsp;
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio"> 5 &nbsp;
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio"> 6
+                                    </label>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="datetime" class="col-md-2 col-form-label">Date and time</label>
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" id="datetime" name="datetime"
+                                        placeholder="Date"> 
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" id="datetime" name="datetime"
+                                        placeholder="Time"> 
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-primary">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
